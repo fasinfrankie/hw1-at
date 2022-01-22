@@ -107,13 +107,6 @@ CREATE TABLE movie (
   director TEXT
 );
 
-CREATE TABLE title (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
- year_released TEXT,
-  MPAA_rating TEXT,
-  director TEXT,
-);
-
 CREATE TABLE actor (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
  title_id TEXT,
